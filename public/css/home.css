@@ -1,0 +1,71 @@
+.home .camion{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -25px;
+    color: #39b54a;
+    position:relative;
+    right: -80%;
+    transition: width 2s, height 2s, transform 2s;
+}
+.home .camion:hover{
+    transform: rotate(360deg);
+}
+.home .precios{
+    font-size: 18px;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+.home .descuento{
+    padding-top: 2px;
+    font-size: 16px;
+    color: yellowgreen;
+}
+.home .articulos{
+    border: solid 1px #b8b6b6;
+    background-color: white;
+}
+.home .numeros{
+    padding-top: 10px;
+    border: solid 1px #b8b6b6;
+    background-color: white;
+
+}
+.home .flex{
+    display: flex;
+    flex-direction: row;
+}
+.home .nombres{
+    margin: -15px 0 0 20px;
+    color: white;
+    transition: 2s;
+}
+.home .nombres:hover{
+    color: red;
+}
+
+
+/* Media */
+@media (min-width:361px){
+    .cajas{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    display: inline-block;
+    width: 42%;
+    margin: 10px 20px;
+    }
+    
+
+}
+
+/* DESKTOP */
+@media (min-width:769px){
+    .cajas{
+        width: 20.40%;
+    }
+}

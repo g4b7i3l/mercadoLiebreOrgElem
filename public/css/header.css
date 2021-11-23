@@ -1,0 +1,90 @@
+/* header */
+header{
+    background-color: #EAC926;
+}
+
+.liebre ,.barra{
+    display: inline-block;
+    width: 40%;
+}
+#burguer{
+    display: flex;
+    margin-left:48%;;
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.primera-barra{
+    width: 30%;
+}
+
+.p1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-sign-in-alt {
+    color: black;
+}
+.fa-address-card{
+    color: black;
+}
+.fa-shopping-basket{
+    color: black;
+}
+.liebre {
+    padding-top: 40px;
+    margin-left: 30px;
+    }
+
+.primera-lista ,.segunda-lista{
+    display: none;
+
+}
+
+/* MEDIA  TABLET */
+@media (min-width:361px){
+    .liebre ,.barra ,.p1{
+    display: inline-block;
+    }
+    .liebre{
+        width: 30%;
+        padding-top: 20px;
+    }
+    .barra{
+        width: 30%;
+    }
+    .p1{
+        width: 30%;
+        margin-left: -80px;
+    }
+    .primera-lista ,.segunda-lista  {
+        display: flex;
+    justify-content: flex-end;
+    }
+    .primera-lista{
+    width: 30%;
+    }
+    .segunda-lista{
+    width: 88%;
+
+    }
+    header li{
+        display: inline-block;
+    
+        padding: 8px;
+    
+    }
+    .listas{
+        display: flex;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+}

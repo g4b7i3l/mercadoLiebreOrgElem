@@ -1,0 +1,35 @@
+footer{
+    text-align: center;
+    background-color: #e4e1e1;
+}
+footer p, h4, h6{
+    color: #666;
+}
+footer .futer{
+    margin-bottom: 55px;
+}
+footer .fa-credit-card{
+    margin-top: 55px;
+    margin-bottom: 10px;
+color: #1259c3;
+transition: 1s
+}
+footer .fa-credit-card:hover{
+color: black;
+}
+footer .fa-gift{
+    margin-bottom: 10px;
+color: #1259c3;
+transition: 1s
+}
+footer .fa-gift:hover{
+    color: black;
+}
+footer .fa-user-shield{
+    margin-bottom: 10px;
+color: #1259c3;
+transition: 1s
+}
+footer .fa-user-shield:hover{
+    color: black;
+}

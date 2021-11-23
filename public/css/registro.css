@@ -1,0 +1,37 @@
+.registro{
+    background-color:rgb(232, 228, 241) ;
+}
+.registro main{
+    background-color: rgb(232, 228, 241) ;
+}
+.registro .inputs {
+    display: flex;
+justify-content:space-between;
+width: 140%;
+
+}
+.registro .formulario{
+    margin: 80px 0 80px 40%;
+}
+.registro .formulario button{
+    margin: 10px 0 0 41%;
+}
+.registro .registrarse {
+    margin-top: 10px;
+    width: 35%;
+}
+
+.registro .reg-bor{
+display: flex;
+
+}
+.registro .registro-de-usuario{
+    display: flex;
+    flex-direction: column;
+    margin:8px 0;
+}
+.registro .perfil-de-usuario{
+    margin: 14px 0 8px;
+}
+
+

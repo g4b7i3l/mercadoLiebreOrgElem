@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.primera-barra ,.busqueda1{
+    border: white 4px solid;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 24px;
+    }
+h4{
+    padding: 20px 0;
+}
+main {
+    background-color: #e4e1e1;
+    padding: 0 5%;
+}
